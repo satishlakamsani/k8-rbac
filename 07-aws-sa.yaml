@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::851974187100:role/eksctl-roboshop-addon-iamserviceaccount-robos-Role1-QmapywJjK55i
+  creationTimestamp: "2026-04-15T11:50:56Z"
+  labels:
+    app.kubernetes.io/managed-by: eksctl
+  name: roboshop-secret-readers
+  namespace: roboshop
+  
