@@ -5,6 +5,6 @@ metadata:
   name: roboshop-admin
 #permissions
 rules:
-- apiGroups: [""] # "" indicates the core API group
+- apiGroups: ["*"] # "" indicates the core API group
   resources: ["*"]
   verbs: ["*"]
