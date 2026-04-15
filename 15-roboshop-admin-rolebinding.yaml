@@ -6,7 +6,7 @@ metadata:
   namespace: roboshop
 subjects:
 - kind: User
-  name: ramesh 
+  name: hareesh 
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role #this must be Role or ClusterRole
